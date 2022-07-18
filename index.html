@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>Calculadora - IMC</title>
+</head>
+<body>
+    <img class='logo' src="./img/Logo Ricardo Novais Web Development.png" alt="Logo Ricardo Novais Web Development">
+    <div class="calculadora">
+        <header>
+            <h2>Calculadora - IMC</h2>
+        </header>
+        <hr class="solid">
+        <div class="form-div">
+            <form class="form">
+                <span class="form-line">
+                    <label class="label">Nome: </label>
+                    <input class="input" type="text" id="nome"><br>
+                </span>
+                <span class="form-line">
+                    <label class="label">Altura: </label>
+                    <input class="input" type="number" id="altura"><br>
+                </span>
+                <span class="form-line">
+                    <label class="label">Peso: </label>
+                    <input class="input" type="number" id="peso"><br>
+                </span>             
+                <button class="button-submit" type="button" id="calcular">Calcular</button><br>
+            </form>
+        </div>
+        <div class="result-div" id="resultado">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
