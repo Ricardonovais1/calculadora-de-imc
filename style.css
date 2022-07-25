@@ -2,15 +2,15 @@
 
 .logo {
     max-width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;    
-    background-color: white;
-    
+    background-color: white;    
 }
 
 .calculadora {
@@ -22,8 +22,7 @@ body {
     padding: 10px;
     border: 3px solid #5C413F;
     border-radius: 5px;
-    box-shadow: -3px 0px 22px 4px rgba(0,0,0,0.58);  
-    
+    box-shadow: -3px 0px 22px 4px rgba(0,0,0,0.58);      
 }
 
 
@@ -31,10 +30,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-   
 }
 
 .button-submit {
+    flex: 1;
     align-self: center;
     margin: auto;
     background-color: #43B14B;
@@ -49,13 +48,10 @@ body {
     margin-top: 10px;
     transition: 200ms;
     font-family: 'Asap', sans-serif;
-
-
 }
 
 .button-submit:hover {
     transform: scale(1.02);
-
 }
 
 header {
@@ -80,13 +76,11 @@ header {
     border: 1px solid rgb(172, 117, 0);
     border-radius: 5px;
     font-family: 'Asap', sans-serif;
-
 }
 
 .label {
     width: 120px;
     font-family: 'Asap', sans-serif;
-
 }
 
 #resultado {
@@ -99,6 +93,5 @@ header {
     color: white;
     padding: 10px;
     font-family: 'Asap', sans-serif;
-
 }
 
